@@ -24,7 +24,7 @@ Installation
 ------------
 
 ```
-pip install git+https://github.com/paxet/pyglins.git
+pip install git+https://github.com/paxet/timing.git
 ```
 
 License
