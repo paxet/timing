@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "timing"
+version = "0.1.0"
+description = "Python3.3+ timing module, based on the work of Paul McGuire http://stackoverflow.com/a/1557906 When the program finishes, prints the time expent"
+authors = ["Javier Caballero <jacallo@protonmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
