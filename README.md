@@ -14,7 +14,7 @@ import timing
 
 If you want to process some info at intermediate work, yo must call:
 ```python
-init_time = timing.now()
+start_time = timing.now()
 some_method()
 finish_time = timing.now()
 log('Called some_method()', finish_time - start_time)
